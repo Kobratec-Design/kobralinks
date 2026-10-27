@@ -10,7 +10,7 @@ Para uma prévia por HTTP, execute `INICIAR-PREVIEW.cmd` e abra **http://127.0.0
 
 ## Editar os links
 
-Altere apenas os valores em `js/links.js`. Há seis destinos: `whatsapp`, `site`, `instagram`, `facebook`, `videos` e `blog`. Os quatro ícones do rodapé reutilizam os destinos correspondentes dos cartões.
+Altere apenas os valores em `js/links.js`. Há oito destinos: `whatsapp`, `site`, `instagram`, `facebook`, `videos`, `blog`, `tiktok` e `linkedin`. Os quatro ícones do rodapé reutilizam os destinos correspondentes dos cartões.
 
 Os endereços foram fornecidos pelo usuário em 27/10/2026, incluindo a mensagem completa de WhatsApp para Criação Animal. Nenhum número ou endereço foi inferido. Todos os destinos abrem em nova aba com `noopener noreferrer`. Deixar um valor vazio mantém o destino pendente e exibe um aviso ao clique.
 
@@ -49,4 +49,8 @@ Nos celulares, os cartões ficam mais altos proporcionalmente para preservar a l
 
 Foram verificadas as larguras **320, 375, 390, 430, 768, 1024 e 1440 px**, além de **1080 px** para comparação com o PSD. As capturas estão em `screenshots/`; o relatório detalhado fica em `reference/validation.json` no projeto de desenvolvimento.
 
-As verificações cobrem ausência de rolagem horizontal, carregamento de imagens e fontes, os seis cartões, os dez destinos dos cartões e do rodapé, foco por teclado, redução de movimento, navegação em nova aba e comportamento de links pendentes. Os destinos foram conferidos contra as URLs fornecidas; a disponibilidade e o login dos serviços externos dependem dos respectivos provedores. Nenhuma mensagem de WhatsApp foi enviada durante os testes.
+As verificações cobrem ausência de rolagem horizontal, carregamento de imagens e fontes, os oito cartões, os doze destinos dos cartões e do rodapé, foco por teclado, redução de movimento, navegação em nova aba e comportamento de links pendentes. Os destinos foram conferidos contra as URLs fornecidas; a disponibilidade e o login dos serviços externos dependem dos respectivos provedores. Nenhuma mensagem de WhatsApp foi enviada durante os testes.
+
+## Novos cartões TikTok e LinkedIn
+
+Acrescentados após os seis cartões originais, conforme solicitado pelo usuário. Reutilizam as fotografias originais de Instagram e Site, respectivamente, e o mesmo layout, tipografia e efeitos dos cartões existentes. Os símbolos das duas marcas são SVGs do Font Awesome Free, adaptados ao círculo azul da página. A licença e a atribuição estão em `assets/icons/FONT-AWESOME-LICENSE.txt`. Não é necessário editar o PSD para manter esses cartões.

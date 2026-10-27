@@ -8,5 +8,7 @@ window.KOBRA_LINKS = Object.freeze({
   instagram: "https://www.instagram.com/kobraindtec/",
   facebook: "https://www.facebook.com/kobraindtec",
   videos: "https://www.youtube.com/@KOBRAINDTEC",
-  blog: "https://www.kobratec.com.br/blog"
+  blog: "https://www.kobratec.com.br/blog",
+  tiktok: "https://www.tiktok.com/@kobraindtec",
+  linkedin: "https://www.linkedin.com/company/kobra-industria-e-tecnologia/"
 });

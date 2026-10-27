@@ -74,6 +74,8 @@ a:focus-visible { outline: 3px solid #0b5481; outline-offset: 5px; }
 .card-facebook { background-image: url("../assets/images/facebook.webp"); }
 .card-videos { background-image: url("../assets/images/videos.webp"); }
 .card-blog { background-image: url("../assets/images/blog.webp"); }
+.card-tiktok { background-image: url("../assets/images/instagram.webp"); }
+.card-linkedin { background-image: url("../assets/images/site.webp"); }
 .link-card::before {
   content: "";
   position: absolute;
