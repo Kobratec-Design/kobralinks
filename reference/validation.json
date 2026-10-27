@@ -1,0 +1,633 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "height": 1366,
+      "fontsReady": true,
+      "brokenImages": [],
+      "cardCount": 6,
+      "pending": 0,
+      "cards": [
+        {
+          "key": "whatsapp",
+          "x": 16,
+          "y": 273.1875,
+          "width": 288,
+          "height": 144,
+          "copyRight": 252.65625,
+          "arrowLeft": 264.65625,
+          "copyHeight": 78.28125,
+          "bodyFont": "13px"
+        },
+        {
+          "key": "site",
+          "x": 16,
+          "y": 429.1875,
+          "width": 288,
+          "height": 144,
+          "copyRight": 252.65625,
+          "arrowLeft": 264.65625,
+          "copyHeight": 78.28125,
+          "bodyFont": "13px"
+        },
+        {
+          "key": "instagram",
+          "x": 16,
+          "y": 585.1875,
+          "width": 288,
+          "height": 144,
+          "copyRight": 252.65625,
+          "arrowLeft": 264.65625,
+          "copyHeight": 78.28125,
+          "bodyFont": "13px"
+        },
+        {
+          "key": "facebook",
+          "x": 16,
+          "y": 741.1875,
+          "width": 288,
+          "height": 144,
+          "copyRight": 252.65625,
+          "arrowLeft": 264.65625,
+          "copyHeight": 78.28125,
+          "bodyFont": "13px"
+        },
+        {
+          "key": "videos",
+          "x": 16,
+          "y": 897.1875,
+          "width": 288,
+          "height": 144,
+          "copyRight": 252.65625,
+          "arrowLeft": 264.65625,
+          "copyHeight": 60.734375,
+          "bodyFont": "13px"
+        },
+        {
+          "key": "blog",
+          "x": 16,
+          "y": 1053.1875,
+          "width": 288,
+          "height": 144,
+          "copyRight": 252.65625,
+          "arrowLeft": 264.65625,
+          "copyHeight": 78.28125,
+          "bodyFont": "13px"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "height": 1373,
+      "fontsReady": true,
+      "brokenImages": [],
+      "cardCount": 6,
+      "pending": 0,
+      "cards": [
+        {
+          "key": "whatsapp",
+          "x": 16,
+          "y": 279.8125,
+          "width": 343,
+          "height": 144,
+          "copyRight": 299.421875,
+          "arrowLeft": 312.875,
+          "copyHeight": 82.421875,
+          "bodyFont": "13.4625px"
+        },
+        {
+          "key": "site",
+          "x": 16,
+          "y": 435.8125,
+          "width": 343,
+          "height": 144,
+          "copyRight": 299.421875,
+          "arrowLeft": 312.875,
+          "copyHeight": 82.421875,
+          "bodyFont": "13.4625px"
+        },
+        {
+          "key": "instagram",
+          "x": 16,
+          "y": 591.8125,
+          "width": 343,
+          "height": 144,
+          "copyRight": 299.421875,
+          "arrowLeft": 312.875,
+          "copyHeight": 82.421875,
+          "bodyFont": "13.4625px"
+        },
+        {
+          "key": "facebook",
+          "x": 16,
+          "y": 747.8125,
+          "width": 343,
+          "height": 144,
+          "copyRight": 299.421875,
+          "arrowLeft": 312.875,
+          "copyHeight": 64.25,
+          "bodyFont": "13.4625px"
+        },
+        {
+          "key": "videos",
+          "x": 16,
+          "y": 903.8125,
+          "width": 343,
+          "height": 144,
+          "copyRight": 299.421875,
+          "arrowLeft": 312.875,
+          "copyHeight": 64.25,
+          "bodyFont": "13.4625px"
+        },
+        {
+          "key": "blog",
+          "x": 16,
+          "y": 1059.8125,
+          "width": 343,
+          "height": 144,
+          "copyRight": 299.421875,
+          "arrowLeft": 312.875,
+          "copyHeight": 82.421875,
+          "bodyFont": "13.4625px"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 1390,
+      "fontsReady": true,
+      "brokenImages": [],
+      "cardCount": 6,
+      "pending": 0,
+      "cards": [
+        {
+          "key": "whatsapp",
+          "x": 16,
+          "y": 285.1875,
+          "width": 358,
+          "height": 146.015625,
+          "copyRight": 312.046875,
+          "arrowLeft": 326.046875,
+          "copyHeight": 85.5625,
+          "bodyFont": "14.001px"
+        },
+        {
+          "key": "site",
+          "x": 16,
+          "y": 443.203125,
+          "width": 358,
+          "height": 146.015625,
+          "copyRight": 312.046875,
+          "arrowLeft": 326.046875,
+          "copyHeight": 85.5625,
+          "bodyFont": "14.001px"
+        },
+        {
+          "key": "instagram",
+          "x": 16,
+          "y": 601.21875,
+          "width": 358,
+          "height": 146.015625,
+          "copyRight": 312.046875,
+          "arrowLeft": 326.046875,
+          "copyHeight": 85.5625,
+          "bodyFont": "14.001px"
+        },
+        {
+          "key": "facebook",
+          "x": 16,
+          "y": 759.234375,
+          "width": 358,
+          "height": 146.015625,
+          "copyRight": 312.046875,
+          "arrowLeft": 326.046875,
+          "copyHeight": 66.671875,
+          "bodyFont": "14.001px"
+        },
+        {
+          "key": "videos",
+          "x": 16,
+          "y": 917.25,
+          "width": 358,
+          "height": 146.015625,
+          "copyRight": 312.046875,
+          "arrowLeft": 326.046875,
+          "copyHeight": 66.671875,
+          "bodyFont": "14.001px"
+        },
+        {
+          "key": "blog",
+          "x": 16,
+          "y": 1075.265625,
+          "width": 358,
+          "height": 146.015625,
+          "copyRight": 312.046875,
+          "arrowLeft": 326.046875,
+          "copyHeight": 85.5625,
+          "bodyFont": "14.001px"
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "scrollWidth": 430,
+      "height": 1494,
+      "fontsReady": true,
+      "brokenImages": [],
+      "cardCount": 6,
+      "pending": 0,
+      "cards": [
+        {
+          "key": "whatsapp",
+          "x": 16,
+          "y": 299.546875,
+          "width": 398,
+          "height": 160.984375,
+          "copyRight": 345.703125,
+          "arrowLeft": 361.125,
+          "copyHeight": 93.9375,
+          "bodyFont": "15.437px"
+        },
+        {
+          "key": "site",
+          "x": 16,
+          "y": 472.53125,
+          "width": 398,
+          "height": 160.984375,
+          "copyRight": 345.703125,
+          "arrowLeft": 361.125,
+          "copyHeight": 93.9375,
+          "bodyFont": "15.437px"
+        },
+        {
+          "key": "instagram",
+          "x": 16,
+          "y": 645.515625,
+          "width": 398,
+          "height": 160.984375,
+          "copyRight": 345.703125,
+          "arrowLeft": 361.125,
+          "copyHeight": 93.9375,
+          "bodyFont": "15.437px"
+        },
+        {
+          "key": "facebook",
+          "x": 16,
+          "y": 818.5,
+          "width": 398,
+          "height": 160.984375,
+          "copyRight": 345.703125,
+          "arrowLeft": 361.125,
+          "copyHeight": 73.109375,
+          "bodyFont": "15.437px"
+        },
+        {
+          "key": "videos",
+          "x": 16,
+          "y": 991.484375,
+          "width": 398,
+          "height": 160.984375,
+          "copyRight": 345.703125,
+          "arrowLeft": 361.125,
+          "copyHeight": 73.109375,
+          "bodyFont": "15.437px"
+        },
+        {
+          "key": "blog",
+          "x": 16,
+          "y": 1164.46875,
+          "width": 398,
+          "height": 160.984375,
+          "copyRight": 345.703125,
+          "arrowLeft": 361.125,
+          "copyHeight": 93.9375,
+          "bodyFont": "15.437px"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 1374,
+      "fontsReady": true,
+      "brokenImages": [],
+      "cardCount": 6,
+      "pending": 0,
+      "cards": [
+        {
+          "key": "whatsapp",
+          "x": 63.28125,
+          "y": 347.828125,
+          "width": 641.421875,
+          "height": 128,
+          "copyRight": 589.002197265625,
+          "arrowLeft": 615.828125,
+          "copyHeight": 91.578125,
+          "bodyFont": "16.3556px"
+        },
+        {
+          "key": "site",
+          "x": 63.28125,
+          "y": 489.328125,
+          "width": 641.421875,
+          "height": 128,
+          "copyRight": 589.002197265625,
+          "arrowLeft": 615.828125,
+          "copyHeight": 91.578125,
+          "bodyFont": "16.3556px"
+        },
+        {
+          "key": "instagram",
+          "x": 63.28125,
+          "y": 630.828125,
+          "width": 641.421875,
+          "height": 128,
+          "copyRight": 589.002197265625,
+          "arrowLeft": 615.828125,
+          "copyHeight": 91.578125,
+          "bodyFont": "16.3556px"
+        },
+        {
+          "key": "facebook",
+          "x": 63.28125,
+          "y": 772.328125,
+          "width": 641.421875,
+          "height": 128,
+          "copyRight": 589.002197265625,
+          "arrowLeft": 615.828125,
+          "copyHeight": 91.578125,
+          "bodyFont": "16.3556px"
+        },
+        {
+          "key": "videos",
+          "x": 63.28125,
+          "y": 913.828125,
+          "width": 641.421875,
+          "height": 128,
+          "copyRight": 589.002197265625,
+          "arrowLeft": 615.828125,
+          "copyHeight": 69.53125,
+          "bodyFont": "16.3556px"
+        },
+        {
+          "key": "blog",
+          "x": 63.28125,
+          "y": 1055.328125,
+          "width": 641.421875,
+          "height": 128,
+          "copyRight": 589.002197265625,
+          "arrowLeft": 615.828125,
+          "copyHeight": 91.578125,
+          "bodyFont": "16.3556px"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 1820,
+      "fontsReady": true,
+      "brokenImages": [],
+      "cardCount": 6,
+      "pending": 0,
+      "cards": [
+        {
+          "key": "whatsapp",
+          "x": 84.390625,
+          "y": 463.78125,
+          "width": 855.21875,
+          "height": 170.65625,
+          "copyRight": 785.3364868164062,
+          "arrowLeft": 821.09375,
+          "copyHeight": 122.109375,
+          "bodyFont": "21.8074px"
+        },
+        {
+          "key": "site",
+          "x": 84.390625,
+          "y": 652.4375,
+          "width": 855.21875,
+          "height": 170.65625,
+          "copyRight": 785.3364868164062,
+          "arrowLeft": 821.09375,
+          "copyHeight": 122.109375,
+          "bodyFont": "21.8074px"
+        },
+        {
+          "key": "instagram",
+          "x": 84.390625,
+          "y": 841.09375,
+          "width": 855.21875,
+          "height": 170.65625,
+          "copyRight": 785.3364868164062,
+          "arrowLeft": 821.09375,
+          "copyHeight": 122.109375,
+          "bodyFont": "21.8074px"
+        },
+        {
+          "key": "facebook",
+          "x": 84.390625,
+          "y": 1029.75,
+          "width": 855.21875,
+          "height": 170.65625,
+          "copyRight": 785.3364868164062,
+          "arrowLeft": 821.09375,
+          "copyHeight": 122.109375,
+          "bodyFont": "21.8074px"
+        },
+        {
+          "key": "videos",
+          "x": 84.390625,
+          "y": 1218.40625,
+          "width": 855.21875,
+          "height": 170.65625,
+          "copyRight": 785.3364868164062,
+          "arrowLeft": 821.09375,
+          "copyHeight": 92.71875,
+          "bodyFont": "21.8074px"
+        },
+        {
+          "key": "blog",
+          "x": 84.390625,
+          "y": 1407.0625,
+          "width": 855.21875,
+          "height": 170.65625,
+          "copyRight": 785.3364868164062,
+          "arrowLeft": 821.09375,
+          "copyHeight": 122.109375,
+          "bodyFont": "21.8074px"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1920,
+      "fontsReady": true,
+      "brokenImages": [],
+      "cardCount": 6,
+      "pending": 0,
+      "cards": [
+        {
+          "key": "whatsapp",
+          "x": 269,
+          "y": 489.140625,
+          "width": 902,
+          "height": 180,
+          "copyRight": 1008.28759765625,
+          "arrowLeft": 1046.015625,
+          "copyHeight": 128.765625,
+          "bodyFont": "23px"
+        },
+        {
+          "key": "site",
+          "x": 269,
+          "y": 688.125,
+          "width": 902,
+          "height": 180,
+          "copyRight": 1008.28759765625,
+          "arrowLeft": 1046.015625,
+          "copyHeight": 128.765625,
+          "bodyFont": "23px"
+        },
+        {
+          "key": "instagram",
+          "x": 269,
+          "y": 887.109375,
+          "width": 902,
+          "height": 180,
+          "copyRight": 1008.28759765625,
+          "arrowLeft": 1046.015625,
+          "copyHeight": 128.765625,
+          "bodyFont": "23px"
+        },
+        {
+          "key": "facebook",
+          "x": 269,
+          "y": 1086.09375,
+          "width": 902,
+          "height": 180,
+          "copyRight": 1008.28759765625,
+          "arrowLeft": 1046.015625,
+          "copyHeight": 128.765625,
+          "bodyFont": "23px"
+        },
+        {
+          "key": "videos",
+          "x": 269,
+          "y": 1285.078125,
+          "width": 902,
+          "height": 180,
+          "copyRight": 1008.28759765625,
+          "arrowLeft": 1046.015625,
+          "copyHeight": 97.78125,
+          "bodyFont": "23px"
+        },
+        {
+          "key": "blog",
+          "x": 269,
+          "y": 1484.0625,
+          "width": 902,
+          "height": 180,
+          "copyRight": 1008.28759765625,
+          "arrowLeft": 1046.015625,
+          "copyHeight": 128.765625,
+          "bodyFont": "23px"
+        }
+      ]
+    },
+    {
+      "width": 1080,
+      "scrollWidth": 1080,
+      "height": 1920,
+      "fontsReady": true,
+      "brokenImages": [],
+      "cardCount": 6,
+      "pending": 0,
+      "cards": [
+        {
+          "key": "whatsapp",
+          "x": 89,
+          "y": 489.140625,
+          "width": 902,
+          "height": 180,
+          "copyRight": 828.28759765625,
+          "arrowLeft": 866.015625,
+          "copyHeight": 128.765625,
+          "bodyFont": "23px"
+        },
+        {
+          "key": "site",
+          "x": 89,
+          "y": 688.125,
+          "width": 902,
+          "height": 180,
+          "copyRight": 828.28759765625,
+          "arrowLeft": 866.015625,
+          "copyHeight": 128.765625,
+          "bodyFont": "23px"
+        },
+        {
+          "key": "instagram",
+          "x": 89,
+          "y": 887.109375,
+          "width": 902,
+          "height": 180,
+          "copyRight": 828.28759765625,
+          "arrowLeft": 866.015625,
+          "copyHeight": 128.765625,
+          "bodyFont": "23px"
+        },
+        {
+          "key": "facebook",
+          "x": 89,
+          "y": 1086.09375,
+          "width": 902,
+          "height": 180,
+          "copyRight": 828.28759765625,
+          "arrowLeft": 866.015625,
+          "copyHeight": 128.765625,
+          "bodyFont": "23px"
+        },
+        {
+          "key": "videos",
+          "x": 89,
+          "y": 1285.078125,
+          "width": 902,
+          "height": 180,
+          "copyRight": 828.28759765625,
+          "arrowLeft": 866.015625,
+          "copyHeight": 97.78125,
+          "bodyFont": "23px"
+        },
+        {
+          "key": "blog",
+          "x": 89,
+          "y": 1484.0625,
+          "width": 902,
+          "height": 180,
+          "copyRight": 828.28759765625,
+          "arrowLeft": 866.015625,
+          "copyHeight": 128.765625,
+          "bodyFont": "23px"
+        }
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "functionalChecks": [
+    "All six supplied URLs match exactly",
+    "All four footer URLs match the cards",
+    "Configured card opens a new tab (outbound request blocked during QA)",
+    "Pending-link fallback and Escape",
+    "Visible keyboard focus",
+    "Reduced motion",
+    "External destination uses safe new tab",
+    "Internal destination supported",
+    "Rejected script URL"
+  ],
+  "status": "passed"
+}
