@@ -178,7 +178,37 @@ a:focus-visible { outline: 3px solid #0b5481; outline-offset: 5px; }
   .social-links li + li::before { top: .555556cqi; bottom: .555556cqi; }
 }
 
+.card-dosatak {
+  grid-template-columns: 32% minmax(0, 1fr) var(--arrow-size);
+  gap: 10px;
+  padding: 18px 12px;
+  min-height: 180px;
+  color: #000;
+  background-color: #f6bf20;
+  background-image: url("../assets/images/dosatak-background.webp");
+  background-size: cover;
+}
+.card-dosatak::before { display: none; }
+.dosatak-products { display: block; width: 100%; height: auto; }
+.card-dosatak .card-title { color: #000; font-size: clamp(24px, 6.4vw, 32px); line-height: 1; }
+.card-dosatak .dosatak-subtitle { margin-top: 3px; color: #fff; font-size: 13px; line-height: 1.2; font-weight: 800; }
+.card-dosatak .dosatak-description { margin-top: 5px; font-size: 13px; line-height: 1.35; }
+@media (min-width: 768px) {
+  .card-dosatak { padding: 0; min-height: 16.666667cqi; background-image: url("../assets/images/dosatak.webp"); background-size: 100% 100%; }
+  .dosatak-products { display: none; }
+  .card-dosatak .card-copy { position: absolute; left: 45.394%; top: 50%; width: 36%; transform: translateY(-50%) scaleX(1.03909); }
+  .card-dosatak .card-title { font-size: 5.555556cqi; line-height: .9; }
+  .card-dosatak .dosatak-subtitle { font-size: 1.944444cqi; line-height: 1.2; margin-top: 0; }
+  .card-dosatak .dosatak-description { font-size: 1.851852cqi; line-height: 1.35; margin-top: 0; }
+  .card-dosatak .card-arrow { position: absolute; right: 6.215%; top: 50%; width: 6.388889cqi; transform: translateY(-50%); }
+}
+@media (min-width: 768px) and (hover: hover) and (pointer: fine) {
+  .card-dosatak:hover .card-arrow { transform: translate(4px, -50%); }
+}
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; }
   .link-card:hover, .link-card:active, .link-card:hover .card-arrow, .social-links a:hover, .social-links a:active { transform: none; }
+}
+@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+  .card-dosatak:hover .card-arrow { transform: translateY(-50%); }
 }
