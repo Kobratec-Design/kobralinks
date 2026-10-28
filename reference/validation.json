@@ -3,7 +3,7 @@
     {
       "width": 320,
       "scrollWidth": 320,
-      "height": 1870,
+      "height": 1834,
       "fontsReady": true,
       "brokenImages": [],
       "cardCount": 9,
@@ -102,18 +102,18 @@
           "x": 16,
           "y": 1521.1875,
           "width": 288,
-          "height": 180,
-          "copyRight": 255.765625,
-          "arrowLeft": 265.765625,
-          "copyHeight": 133.375,
-          "bodyFont": "13px"
+          "height": 144,
+          "copyRight": 257.90625,
+          "arrowLeft": 264.65625,
+          "copyHeight": 119.96875,
+          "bodyFont": "12px"
         }
       ]
     },
     {
       "width": 375,
       "scrollWidth": 375,
-      "height": 1877,
+      "height": 1841,
       "fontsReady": true,
       "brokenImages": [],
       "cardCount": 9,
@@ -212,18 +212,18 @@
           "x": 16,
           "y": 1527.8125,
           "width": 343,
-          "height": 180,
-          "copyRight": 306.25,
-          "arrowLeft": 316.25,
-          "copyHeight": 100.234375,
-          "bodyFont": "13px"
+          "height": 144,
+          "copyRight": 304.09375,
+          "arrowLeft": 312.875,
+          "copyHeight": 90.578125,
+          "bodyFont": "12px"
         }
       ]
     },
     {
       "width": 390,
       "scrollWidth": 390,
-      "height": 1898,
+      "height": 1864,
       "fontsReady": true,
       "brokenImages": [],
       "cardCount": 9,
@@ -322,18 +322,18 @@
           "x": 16,
           "y": 1549.3125,
           "width": 358,
-          "height": 180,
-          "copyRight": 320.03125,
-          "arrowLeft": 330.03125,
-          "copyHeight": 101.1875,
-          "bodyFont": "13px"
+          "height": 146.015625,
+          "copyRight": 316.703125,
+          "arrowLeft": 326.046875,
+          "copyHeight": 93.40625,
+          "bodyFont": "12px"
         }
       ]
     },
     {
       "width": 430,
       "scrollWidth": 430,
-      "height": 2032,
+      "height": 2013,
       "fontsReady": true,
       "brokenImages": [],
       "cardCount": 9,
@@ -432,11 +432,11 @@
           "x": 16,
           "y": 1683.421875,
           "width": 398,
-          "height": 180,
-          "copyRight": 356.75,
-          "arrowLeft": 366.75,
-          "copyHeight": 86.203125,
-          "bodyFont": "13px"
+          "height": 160.984375,
+          "copyRight": 350.296875,
+          "arrowLeft": 361.125,
+          "copyHeight": 100.984375,
+          "bodyFont": "12px"
         }
       ]
     },
@@ -891,7 +891,9 @@
     "Reduced motion",
     "External destination uses safe new tab",
     "Internal destination supported",
-    "Rejected script URL"
+    "Rejected script URL",
+    "All nine cards have equal heights at each tested width",
+    "All three mobile products are enlarged and intentionally clipped to the reference frame"
   ],
   "status": "passed"
 }

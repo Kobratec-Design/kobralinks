@@ -47,6 +47,7 @@ a:focus-visible { outline: 3px solid #0b5481; outline-offset: 5px; }
 .link-list, .social-links { list-style: none; margin: 0; padding: 0; }
 .link-list { display: grid; gap: 12px; }
 .link-card {
+  --card-height: clamp(144px, 37.44vw, 164px);
   --card-padding: clamp(12px, 4.1vw, 20px);
   --icon-size: clamp(48px, 14.36vw, 72px);
   --arrow-size: clamp(26px, 8.2vw, 38px);
@@ -56,7 +57,8 @@ a:focus-visible { outline: 3px solid #0b5481; outline-offset: 5px; }
   grid-template-columns: var(--icon-size) minmax(0, 1fr) var(--arrow-size);
   gap: var(--card-gap);
   align-items: center;
-  min-height: clamp(144px, 37.44vw, 164px);
+  height: var(--card-height);
+  min-height: var(--card-height);
   padding: 18px var(--card-padding);
   border-radius: 14px;
   color: var(--white);
@@ -151,6 +153,7 @@ a:focus-visible { outline: 3px solid #0b5481; outline-offset: 5px; }
   .links { width: 83.518519%; max-width: none; margin-top: 5.185185cqi; }
   .link-list { gap: 1.759259cqi; }
   .link-card {
+    --card-height: 16.666667cqi;
     --card-padding: 4.074074cqi;
     --icon-size: 11.666667cqi;
     --arrow-size: 6.388889cqi;
@@ -179,20 +182,25 @@ a:focus-visible { outline: 3px solid #0b5481; outline-offset: 5px; }
 }
 
 .card-dosatak {
-  grid-template-columns: 32% minmax(0, 1fr) var(--arrow-size);
-  gap: 10px;
-  padding: 18px 12px;
-  min-height: 180px;
+  display: block;
+  padding: 0;
+  overflow: hidden;
   color: #000;
   background-color: #f6bf20;
   background-image: url("../assets/images/dosatak-background.webp");
   background-size: cover;
 }
 .card-dosatak::before { display: none; }
-.dosatak-products { display: block; width: 100%; height: auto; }
+.dosatak-products { position: absolute; display: block; left: 0; top: 0; bottom: 0; width: calc(40% - 5px); overflow: hidden; }
+.dosatak-product { position: absolute; top: -5%; width: 88%; height: auto; }
+.product-animal { left: -38%; z-index: 3; }
+.product-arc { left: -12%; z-index: 2; }
+.product-saneamento { left: 12%; z-index: 1; }
+.card-dosatak .card-copy { position: absolute; left: 40%; top: 50%; width: 44%; transform: translateY(-50%); }
 .card-dosatak .card-title { color: #000; font-size: clamp(24px, 6.4vw, 32px); line-height: 1; }
-.card-dosatak .dosatak-subtitle { margin-top: 3px; color: #fff; font-size: 13px; line-height: 1.2; font-weight: 800; }
-.card-dosatak .dosatak-description { margin-top: 5px; font-size: 13px; line-height: 1.35; }
+.card-dosatak .dosatak-subtitle { margin-top: 3px; color: #fff; font-size: 12px; line-height: 1.15; font-weight: 800; }
+.card-dosatak .dosatak-description { margin-top: 3px; font-size: clamp(12px, 3.2vw, 14px); line-height: 1.3; }
+.card-dosatak .card-arrow { position: absolute; right: var(--card-padding); top: 50%; width: var(--arrow-size); transform: translateY(-50%); }
 @media (min-width: 768px) {
   .card-dosatak { padding: 0; min-height: 16.666667cqi; background-image: url("../assets/images/dosatak.webp"); background-size: 100% 100%; }
   .dosatak-products { display: none; }
@@ -202,13 +210,13 @@ a:focus-visible { outline: 3px solid #0b5481; outline-offset: 5px; }
   .card-dosatak .dosatak-description { font-size: 1.851852cqi; line-height: 1.35; margin-top: 0; }
   .card-dosatak .card-arrow { position: absolute; right: 6.215%; top: 50%; width: 6.388889cqi; transform: translateY(-50%); }
 }
-@media (min-width: 768px) and (hover: hover) and (pointer: fine) {
+@media (hover: hover) and (pointer: fine) {
   .card-dosatak:hover .card-arrow { transform: translate(4px, -50%); }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; }
   .link-card:hover, .link-card:active, .link-card:hover .card-arrow, .social-links a:hover, .social-links a:active { transform: none; }
 }
-@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: reduce) {
   .card-dosatak:hover .card-arrow { transform: translateY(-50%); }
 }
