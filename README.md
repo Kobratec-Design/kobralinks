@@ -10,7 +10,7 @@ Para uma prévia por HTTP, execute `INICIAR-PREVIEW.cmd` e abra **http://127.0.0
 
 ## Editar os links
 
-Altere apenas os valores em `js/links.js`. Há nove destinos: `whatsapp`, `site`, `instagram`, `facebook`, `videos`, `blog`, `tiktok`, `linkedin` e `dosatak`. O endereço de `dosatak` está pendente de envio pelo usuário. Os quatro ícones do rodapé reutilizam os destinos correspondentes dos cartões.
+Altere apenas os valores em `js/links.js`. Há nove destinos: `whatsapp`, `site`, `instagram`, `facebook`, `videos`, `blog`, `tiktok`, `linkedin` e `dosatak`. O destino `dosatak` aponta para a playlist de manutenção do YouTube fornecida em 29/10/2026. Os quatro ícones do rodapé reutilizam os destinos correspondentes dos cartões.
 
 Os endereços foram fornecidos pelo usuário em 27/10/2026, incluindo a mensagem completa de WhatsApp para Criação Animal. Nenhum número ou endereço foi inferido. Todos os destinos abrem em nova aba com `noopener noreferrer`. Deixar um valor vazio mantém o destino pendente e exibe um aviso ao clique.
 
@@ -49,7 +49,7 @@ Nos celulares, os cartões ficam mais altos proporcionalmente para preservar a l
 
 Foram verificadas as larguras **320, 375, 390, 430, 768, 1024 e 1440 px**, além de **1080 px** para comparação com o PSD. As capturas estão em `screenshots/`; o relatório detalhado fica em `reference/validation.json` no projeto de desenvolvimento.
 
-As verificações cobrem ausência de rolagem horizontal, carregamento de imagens e fontes, nove cartões (oito com destino configurado e Dosatak pendente), os doze links ativos dos cartões e do rodapé, foco por teclado, redução de movimento, navegação em nova aba e comportamento de links pendentes. Os destinos foram conferidos contra as URLs fornecidas; a disponibilidade e o login dos serviços externos dependem dos respectivos provedores. Nenhuma mensagem de WhatsApp foi enviada durante os testes.
+As verificações cobrem ausência de rolagem horizontal, carregamento de imagens e fontes, nove cartões com destino configurado, os treze links ativos dos cartões e do rodapé, foco por teclado, redução de movimento, navegação em nova aba e comportamento de links pendentes. Os destinos foram conferidos contra as URLs fornecidas; a disponibilidade e o login dos serviços externos dependem dos respectivos provedores. Nenhuma mensagem de WhatsApp foi enviada durante os testes.
 
 ## Novos cartões TikTok e LinkedIn
 
@@ -57,4 +57,4 @@ Acrescentados após os seis cartões originais, conforme solicitado pelo usuári
 
 ## Manutenção Dosatak
 
-Bloco adicionado imediatamente após LinkedIn, conforme a arte `LINKS-KOBRA -DOSATAK.psd` fornecida pelo usuário. A composição desktop aprovada foi preservada. No celular, usa os três PNGs enviados em 28/10/2026, ampliados e sobrepostos: amarelo à frente à esquerda, branco ao centro e preto à direita. O enquadramento corta intencionalmente as extremidades dos produtos nas bordas do cartão, conforme a referência mais recente do usuário. A versão com produtos inteiros foi rejeitada e substituída. Todos os nove cartões compartilham exatamente a mesma altura em cada largura de tela. Cores, textos e seta acompanham a arte amarela. O destino `dosatak` em `js/links.js` está vazio até o usuário enviar a URL; ao clicar, a página informa que o link estará disponível em breve.
+Bloco adicionado imediatamente após LinkedIn, conforme a arte `LINKS-KOBRA -DOSATAK.psd` fornecida pelo usuário. A composição desktop aprovada foi preservada. No celular, usa os três PNGs enviados em 28/10/2026, ampliados e sobrepostos: amarelo à frente à esquerda, branco ao centro e preto à direita. O enquadramento corta intencionalmente as extremidades dos produtos nas bordas do cartão, conforme a referência mais recente do usuário. A versão com produtos inteiros foi rejeitada e substituída. Todos os nove cartões compartilham exatamente a mesma altura em cada largura de tela. Cores, textos e seta acompanham a arte amarela. O destino `dosatak` em `js/links.js` foi ativado em 29/10/2026 com a playlist de manutenção fornecida pelo usuário, aberta em nova aba.

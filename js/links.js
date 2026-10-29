@@ -11,5 +11,5 @@ window.KOBRA_LINKS = Object.freeze({
   blog: "https://www.kobratec.com.br/blog",
   tiktok: "https://www.tiktok.com/@kobraindtec",
   linkedin: "https://www.linkedin.com/company/kobra-industria-e-tecnologia/",
-  dosatak: ""
+  dosatak: "https://www.youtube.com/playlist?list=PLgg3TsUTkEXWYIdJQtgckwjEPCSccoVqC"
 });
